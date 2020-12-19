@@ -257,9 +257,20 @@ body {
   background: seagreen;
   border-radius: 49% 50% 48% 50% / 45% 35% 59% 58% ;
   height: 13%;
-  width: 10%;
+  width: 8%;
   top: 50%;
-  left: 43%;
+  left: 45%;
+  z-index: 15;
+}
+
+.nose-cover{
+  position: absolute;
+  background: #63c985;
+  border-radius: 49% 50% 48% 50% / 45% 35% 59% 58% ;
+  height: 30%;
+  width: 10%;
+  top: 52%;
+  left: 44%;
   z-index: 15;
 }
 
@@ -267,7 +278,7 @@ body {
   position: relative;
   background: seagreen;
   border-radius: 49% 50% 48% 49% / 41% 39% 59% 58%;
-  height: 20%;
+  height: 15%;
   width: 25%;
   top: 57%;
   left: 37%;
@@ -278,11 +289,12 @@ body {
 //   position: relative;
 //   background: #63c985;
 //   border-radius: 49% 50% 48% 49% / 41% 39% 59% 58%;
-//   height: 15%;
-//   width: 40%;
+//   height: 20%;
+//   width: 30%;
 //   top: 33%;
-//   left: 30%;
+//   left: 35%;
 //   z-index: 15;
+//   border: 2px solid black;
 
 // }
 
