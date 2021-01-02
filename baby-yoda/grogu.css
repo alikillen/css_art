@@ -10,7 +10,6 @@ body {
   width: 600px;
   height: 420px;
   background: none;
-  border: solid 4px red;
 }
 
 .hat-base {
@@ -160,7 +159,6 @@ body {
   top: 10%;
   left: 10%;
   background: #f0a79a;
-  border: 3px solid grey;
 }
 
 .inner-ear-left {
@@ -171,7 +169,6 @@ body {
   top: 10%;
   left: 10%;
   background: #f0a79a;
-  border: 3px solid grey;
 }
 
 .eye-left {
@@ -245,22 +242,22 @@ body {
   background: seagreen;
   border-radius: 49% 50% 48% 49% / 41% 39% 59% 58%;
   height: 15%;
-  width: 25%;
-  top: 57%;
-  left: 37%;
+  width: 15%;
+  top: 60%;
+  left: 43%;
   z-index: 15;
 }
 
 .jumper-collar {
   position: absolute;
-  width: 65%;
-  height: 33%;
+  width: 75%;
+  height: 25%;
   top: 80%;
-  left: 25%;
+  left: 20%;
   border-radius: 28% 22% 27% 29% / 41% 45% 23% 19%;
   border-color: saddlebrown;
   background: #d68a25;
-  z-index: 4;
+  z-index: 6;
 }
 
 .jumper {
@@ -273,6 +270,17 @@ body {
   border-color: saddlebrown;
   background: #5e3903;
   z-index: 4;
+}
+
+.hand-left {
+  position: relative;
+  border-radius: 50%;
+  color: #63c985;
+  width: 35%;
+  height: 23%;
+  top: 55%;
+  left: 21%;
+  z-index: 7;
 }
 
 .snowflake {
